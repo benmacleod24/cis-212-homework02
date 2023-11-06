@@ -1,0 +1,39 @@
+.post-container {
+	max-width: 50%;
+	margin: 2rem auto;
+}
+
+.post-header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	/* margin-bottom: 2rem; */
+}
+
+.post-header * {
+	margin-bottom: 0.7rem;
+}
+
+.post-footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.post-footer button {
+	background: black;
+	color: rgb(32, 184, 18);
+	font-family: "VT323", monospace;
+	border: 1px solid rgb(32, 184, 18);
+	border-radius: 0.3rem;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+#content {
+	border: 1px solid rgb(32, 184, 18);
+	padding: 1rem;
+	border-radius: 0.3rem;
+	margin: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1.3rem;
+}

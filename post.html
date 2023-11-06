@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="styles/theme.css" />
+		<link rel="stylesheet" href="styles/post.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=VT323&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="javascript/post.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<a href="index.html" class="header">
+			<img src="assets/skull.jpg" />
+			<p>The Code Pirate</p>
+		</a>
+
+		<!-- Navigation Menu -->
+		<div class="menu">
+			<a href="index.html">Home</a>
+			<a href="create.html">New Post</a>
+		</div>
+
+		<div class="post-container">
+			<div class="post-header">
+				<h1 id="title">Test</h1>
+				<h3 id="date">Test</h3>
+			</div>
+			<p id="content"></p>
+			<div class="post-footer">
+				<div id="word-count">22 Words</div>
+				<button onclick="deletePost()">Delete</button>
+			</div>
+		</div>
+	</body>
+</html>

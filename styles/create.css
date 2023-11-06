@@ -1,0 +1,57 @@
+form {
+	max-width: 50%;
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: column;
+}
+
+form input,
+textarea {
+	background: black;
+	border: 1px solid rgb(32, 184, 18);
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	border-radius: 0.3rem;
+	color: rgb(32, 184, 18);
+	font-family: "VT323", monospace;
+}
+
+form input:focus,
+textarea:focus {
+	outline: none;
+}
+
+form input::placeholder,
+textarea::placeholder {
+	color: rgb(25, 145, 14);
+	font-family: "VT323", monospace;
+}
+
+#input-title {
+	width: 35%;
+}
+
+#input-content {
+	width: 100%;
+	resize: vertical;
+}
+
+.label {
+	margin-bottom: 0.5rem;
+}
+
+.textarea-label {
+	margin-top: 2rem;
+}
+
+form button {
+	width: 35%;
+	margin-top: 2rem;
+	padding: 1rem;
+	background: black;
+	color: rgb(32, 184, 18);
+	font-family: "VT323", monospace;
+	border: 1px solid rgb(32, 184, 18);
+	border-radius: 0.3rem;
+	font-size: 1.3rem;
+}
