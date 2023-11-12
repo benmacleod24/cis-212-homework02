@@ -13,6 +13,7 @@ function hydrateHTML() {
 	}
 
 	document.getElementById("title").innerText = post.title;
+	document.getElementById("category").innerText = post.category;
 	document.getElementById("content").innerText = post.content;
 	document.getElementById("date").innerText = formatDate(post.date);
 	document.getElementById("word-count").innerText = `Words: ${getWordCount(

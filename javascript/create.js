@@ -2,11 +2,12 @@ function onFormSubmit(e) {
 	e.preventDefault();
 	const titleInput = document.getElementById("input-title").value;
 	const contentInput = document.getElementById("input-content").value;
+	const categoryInput = document.getElementById("input-category").value;
 
-	createPost(titleInput, contentInput);
+	createPost(titleInput, contentInput, categoryInput);
 }
 
-function createPost(title, content) {
+function createPost(title, content, category) {
 	const posts = getPosts();
 	const postId = posts.length + 1;
 
@@ -15,6 +16,7 @@ function createPost(title, content) {
 		id: postId,
 		title: title,
 		content: content,
+		category,
 		date: new Date(),
 	});
 

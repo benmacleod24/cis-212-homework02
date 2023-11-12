@@ -27,8 +27,13 @@ textarea::placeholder {
 	font-family: "VT323", monospace;
 }
 
-#input-title {
+#input-title,
+#input-category {
 	width: 35%;
+}
+
+.label-category {
+	margin-top: 1rem;
 }
 
 #input-content {
